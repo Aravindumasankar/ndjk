@@ -1,0 +1,26 @@
+{
+  "name": "ndjk",
+  "version": "1.0.0",
+  "description": "Hello World touch DockerfileDev to Devops",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.build.ge.com/212730920/ndjk.git"
+  },
+  "keywords": [
+    "Node",
+    "JS",
+    "Docker",
+    "Helm",
+    "Jenkins",
+    "Kubernetes"
+  ],
+  "author": "Aravind Umasankar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
