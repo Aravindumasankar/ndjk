@@ -24,5 +24,10 @@ node {
          * Second, the 'latest' tag.
          * Pushing multiple tags is cheap, as all the layers are reused. */
     }
+    stage ('Stop Container){
+    }
+    stage('Run Image'){
+        sh 'docker run -p 80:8080 au/hellonode'
+    }
     
 }
